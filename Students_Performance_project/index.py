@@ -5,7 +5,7 @@ import numpy as np
 from fastapi import FastAPI, Query
 from fastapi.responses import FileResponse
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 model = joblib.load(ROOT / "model.joblib")
 
 GRADES = {0: "Excellent", 1: "Good", 2: "Average", 3: "Below Average", 4: "Poor"}

@@ -8704,3 +8704,16 @@ dtype: int64}]))),
 2026-10-07 19:37:04,694:WARNING:D:\AI Engineering\FastAPI\students performance\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
   warnings.warn("Setuptools is replacing distutils.")
 
+2026-10-07 19:54:45,873:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-10-07 19:54:45,873:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-10-07 19:54:45,873:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-10-07 19:54:45,873:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-10-07 19:54:46,796:INFO:Initializing load_model()
+2026-10-07 19:54:46,796:INFO:load_model(model_name=best_student_performance_model, platform=None, authentication=None, verbose=True)
+2026-10-07 19:54:46,804:WARNING:D:\AI Engineering\FastAPI\students performance\.venv\Lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+

@@ -52,7 +52,7 @@ input:focus,select:focus{outline:0;border-color:var(--teal)}
     <ol class="ladder" id="ladder">
       <li data-g="Excellent">Excellent</li><li data-g="Good">Good</li><li data-g="Average">Average</li><li data-g="Below Average">Below average</li><li data-g="Poor">Poor</li>
     </ol>
-    <div class="status"><span class="dot" id="dot"></span><span id="statusText">Checking API…</span></div>
+    <div class="status"><span class="dot" id="dot"></span><span id="statusText">Checking API...</span></div>
   </div>
 </section>
 
@@ -111,7 +111,7 @@ $("form").addEventListener("submit", async ev => {
     }
     p.set(f, el.value);
   }
-  const b = $("submit"); b.disabled = true; b.textContent = "Predicting…";
+  const b = $("submit"); b.disabled = true; b.textContent = "Predicting...";
   try {
     const r = await fetch(`${API_URL}/predict?${p}`);
     if (!r.ok) throw new Error("The API returned status " + r.status + ".");
