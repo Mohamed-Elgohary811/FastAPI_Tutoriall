@@ -1,0 +1,8 @@
+.venv
+__pycache__
+*.csv
+*.CSV
+train.py
+catboost_info
+logs.log
+best_student_performance_model.pkl
